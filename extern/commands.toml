@@ -1,0 +1,57 @@
+[[commands]]
+title = "Toggle Maximize"
+name = "maximize"
+description = "Makes the window take up the entire screen while retaining the menu bar"
+command = "window --toggle zoom-fullscreen"
+
+[[commands]]
+title = "Toggle Fullscreen"
+name = "fullscreen"
+description = "Makes the window take up the entire screen"
+command = "window --toggle native-fullscreen"
+
+[[commands]]
+title = "DIRECTION"
+name = "move-window-DIRECTION"
+description = "Move window to the DIRECTION"
+command = "window --warp DIRECTION"
+directions = ["north", "east", "south", "west"]
+
+[[commands]]
+title = "Focus DIRECTION"
+name = "focus-window-DIRECTION"
+description = "Focus window to the DIRECTION"
+command = "window --focus DIRECTION"
+directions = ["north", "east", "south", "west"]
+
+[[commands]]
+title = "Shuttle DIRECTION"
+name = "move-window-to-DIRECTION-space"
+description = "Moves currently selected window to the next or previous space."
+command = "window --space DIRECTION"
+directions = ["next", "prev"]
+
+[[commands]]
+title = "Back"
+name = "back"
+description = "Focuses most recently selected window"
+command = "window --focus recent"
+
+[[commands]]
+title = "DIRECTION Space"
+name = "focus-space-DIRECTION"
+description = "Focus space to the DIRECTION"
+command = "space --focus DIRECTION"
+directions = ["next", "prev"]
+
+[[commands]]
+title = "Create Space"
+name = "create-space"
+description = "Creates a new space at the end of existing spaces"
+command = "space --create"
+
+[[commands]]
+title = "Delete Space"
+name = "delete-space"
+description = "Delects currently selected space"
+command = "space --destroy"
