@@ -38,6 +38,20 @@ description = "Focuses most recently selected window"
 command = "window --focus recent"
 
 [[commands]]
+title = "Stack DIRECTION"
+name = "stack-DIRECTION"
+description = "Stacks one window on another, like we're not using a tiling window manager"
+command = "window --stack DIRECTION"
+directions = ["north", "east", "south", "west"]
+
+[[commands]]
+title = "Swap DIRECTION"
+name = "swap-DIRECTION"
+description = "Swaps one window with another"
+command = "window --swap DIRECTION"
+directions = ["north", "east", "south", "west"]
+
+[[commands]]
 title = "DIRECTION Space"
 name = "focus-space-DIRECTION"
 description = "Focus space to the DIRECTION"
@@ -55,3 +69,16 @@ title = "Delete Space"
 name = "delete-space"
 description = "Delects currently selected space"
 command = "space --destroy"
+
+[[commands]]
+title = "Reset"
+name = "binary-space-partition"
+description = "Resets all windows of a space to be nice and square"
+command = "space --layout bsp"
+
+[[commands]]
+title = "Balance DIRECTION"
+name = "balance-DIRECTION"
+description = "Balance windows in a direction. Less destructive than setting the layout to binary space partition."
+command = "space --balance DIRECTION"
+directions = ["x-axis", "y-axis"]
