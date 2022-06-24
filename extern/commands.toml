@@ -29,7 +29,7 @@ title = "Shuttle DIRECTION"
 name = "move-window-to-DIRECTION-space"
 description = "Moves currently selected window to the next or previous space."
 command = "window --space DIRECTION"
-directions = ["next", "prev"]
+directions = ["next", "prev", "1", "2", "3", "4", "5"]
 
 [[commands]]
 title = "Back"
@@ -56,7 +56,7 @@ title = "DIRECTION Space"
 name = "focus-space-DIRECTION"
 description = "Focus space to the DIRECTION"
 command = "space --focus DIRECTION"
-directions = ["next", "prev"]
+directions = ["next", "prev", "1", "2", "3", "4", "5"]
 
 [[commands]]
 title = "Create Space"

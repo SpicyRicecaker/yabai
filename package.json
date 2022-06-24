@@ -96,55 +96,90 @@
             "mode": "no-view"
         },
         {
-            "name": "back",
-            "title": "Back",
+            "name": "move-window-to-1-space",
+            "title": "Shuttle 1",
             "subtitle": "Yabai",
+            "description": "Moves currently selected window to the next or previous space.",
+            "mode": "no-view"
+        },
+        {
+            "name": "move-window-to-2-space",
+            "title": "Shuttle 2",
+            "subtitle": "Yabai",
+            "description": "Moves currently selected window to the next or previous space.",
+            "mode": "no-view"
+        },
+        {
+            "name": "move-window-to-3-space",
+            "title": "Shuttle 3",
+"subtitle": "Yabai",
+            "description": "Moves currently selected window to the next or previous space.",
+            "mode": "no-view"
+},
+{
+"name": "move-window-to-4-space",
+"title": "Shuttle 4",
+            "subtitle": "Yabai",
+"description": "Moves currently selected window to the next or previous space.",
+"mode": "no-view"
+        },
+        {
+            "name": "move-window-to-5-space",
+            "title": "Shuttle 5",
+"subtitle": "Yabai",
+            "description": "Moves currently selected window to the next or previous space.",
+            "mode": "no-view"
+},
+{
+"name": "back",
+            "title": "Back",
+"subtitle": "Yabai",
             "description": "Focuses most recently selected window",
             "mode": "no-view"
-        },
-        {
-            "name": "stack-north",
+},
+{
+"name": "stack-north",
             "title": "Stack North",
-            "subtitle": "Yabai",
+"subtitle": "Yabai",
             "description": "Stacks one window on another, like we're not using a tiling window manager",
             "mode": "no-view"
-        },
-        {
-            "name": "stack-east",
+},
+{
+"name": "stack-east",
             "title": "Stack East",
-            "subtitle": "Yabai",
+"subtitle": "Yabai",
             "description": "Stacks one window on another, like we're not using a tiling window manager",
             "mode": "no-view"
-        },
-        {
-            "name": "stack-south",
+},
+{
+"name": "stack-south",
             "title": "Stack South",
-            "subtitle": "Yabai",
+"subtitle": "Yabai",
             "description": "Stacks one window on another, like we're not using a tiling window manager",
             "mode": "no-view"
-        },
-        {
-            "name": "stack-west",
+},
+{
+"name": "stack-west",
             "title": "Stack West",
-            "subtitle": "Yabai",
+"subtitle": "Yabai",
             "description": "Stacks one window on another, like we're not using a tiling window manager",
             "mode": "no-view"
-        },
-        {
-            "name": "swap-north",
+},
+{
+"name": "swap-north",
             "title": "Swap North",
-            "subtitle": "Yabai",
+"subtitle": "Yabai",
             "description": "Swaps one window with another",
             "mode": "no-view"
-        },
-        {
-            "name": "swap-east",
+},
+{
+"name": "swap-east",
             "title": "Swap East",
-            "subtitle": "Yabai",
+"subtitle": "Yabai",
             "description": "Swaps one window with another",
             "mode": "no-view"
-        },
-        {
+},
+{
             "name": "swap-south",
             "title": "Swap South",
             "subtitle": "Yabai",
@@ -170,6 +205,41 @@
             "title": "Prev Space",
             "subtitle": "Yabai",
             "description": "Focus space to the prev",
+            "mode": "no-view"
+        },
+        {
+            "name": "focus-space-1",
+            "title": "1 Space",
+            "subtitle": "Yabai",
+            "description": "Focus space to the 1",
+            "mode": "no-view"
+        },
+        {
+            "name": "focus-space-2",
+            "title": "2 Space",
+            "subtitle": "Yabai",
+            "description": "Focus space to the 2",
+            "mode": "no-view"
+        },
+        {
+            "name": "focus-space-3",
+            "title": "3 Space",
+            "subtitle": "Yabai",
+            "description": "Focus space to the 3",
+            "mode": "no-view"
+        },
+        {
+            "name": "focus-space-4",
+            "title": "4 Space",
+            "subtitle": "Yabai",
+            "description": "Focus space to the 4",
+            "mode": "no-view"
+        },
+        {
+            "name": "focus-space-5",
+            "title": "5 Space",
+            "subtitle": "Yabai",
+            "description": "Focus space to the 5",
             "mode": "no-view"
         },
         {

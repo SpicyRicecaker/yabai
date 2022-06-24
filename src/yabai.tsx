@@ -16,6 +16,6 @@ export async function defaultRunCommand(command: string) {
     try {
         execSync(`${prefix} -m ${command}`);
     } catch (e) {
-        await showHUD("よくない!");
+        await showHUD(`${e.stderr}`);
     };
 }
